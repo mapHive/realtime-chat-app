@@ -56,6 +56,7 @@ const AblyChatComponent = () => {
     return (
         <div className={styles.chatHolder}>
             <div className={styles.chatText}>
+                <div className={styles.descp}><span className={styles.head}>Welcome to this simple realtime chat app</span> <br></br><br></br>Duplicate this tab in another window. Get them side by side. Start typing in each window to see the exchange! </div>
                 {messages}
                 {/* empty element to control scroll to bottom */}
                 <div ref={(element) => { messageEnd = element; }}></div>
